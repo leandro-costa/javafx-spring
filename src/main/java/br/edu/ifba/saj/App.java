@@ -11,11 +11,13 @@ import java.io.IOException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 /**
  * JavaFX App
  */
 @ComponentScan(basePackages = "br.edu.ifba.saj")
+@EnableJpaRepositories("br.edu.ifba.saj.repository")
 public class App extends Application {
 
     private static Scene scene;
