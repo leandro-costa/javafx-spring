@@ -8,7 +8,7 @@ import br.edu.ifba.saj.repository.UsuarioRepository;
 @Service
 public class Message {
 
-   
+   @Autowired
    UsuarioRepository repository;
 
    private String message = "Hello there!";

@@ -53,7 +53,6 @@ if exist "%HOME%\mavenrc_pre.cmd" call "%HOME%\mavenrc_pre.cmd"
 @setlocal
 
 set ERROR_CODE=0
-set JAVA_HOME=C:\Users\leandro.costa.IFBASAJLOCAL\Desktop\dev\jdk-17.0.4+8
 
 @REM To isolate internal variables from possible post scripts, we use another setlocal
 @setlocal
