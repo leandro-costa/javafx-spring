@@ -9,7 +9,7 @@ import br.edu.ifba.saj.model.Usuario;
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
-    List<Usuario> findByLastName(String lastName);
+    List<Usuario> findByEmail(String email);
   
     Usuario findById(long id);
   }
